@@ -1,1 +1,23 @@
 Scripts for analyses of the genetic maps
+
+MultiScaf_vs_Split_Scaf.R – Script to compare multi marker scaffolds length with split scaffolds length
+
+Sliding_recombination.R – Script to create sliding window analysis of marker density, scaffold density, scaffold length and gene density along the consensus genetic map
+
+calculate_Zns_per_probe.R –  Scrpt to estimate Zns per probe in the consensus genetic map
+
+gene_model_confidance_in_map.R – Script to estimate confidence levels of genes on split scaffolds 
+
+gene_model_info.R – Script to estimate the amount of High-, Medium-, and Low confidence gene model positioned on mapped scaffolds
+
+manhattan_plot.R – Function for creating Manhattan plot 
+
+omicCircos.R – Script to create a circus plot of the consensus genetic map 
+
+split_scaf-probe_structure.R – Script to analyze the split scaffolds 
+
+split_scaf_figure.R – Script to plot probe distribution over scaffolds and how multi marker scaffolds are distributed over LGs 
+
+synteny.R – Script for creating synteny plots 
+
+vcfR_and_pegas.R – Script and functions for analysis of population genetic parameters of a unrelated dataset   
