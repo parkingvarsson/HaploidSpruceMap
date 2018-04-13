@@ -1,6 +1,6 @@
 To reference this project in publications, please cite the following:
 
-Bernhardsson, Carolina, Amaryllis Vidalis, Xi Wang, Douglas G. Scofield, Bastian Shiffthaler, John Baison, Nathaniel R. Street, M. Rosario Garcia Gil, and Pär K. Ingvarsson. 2018. “An Ultra-Dense Haploid Genetic Map for Evaluating the Highly Fragmented Genome Assembly of Norway Spruce (Picea Abies).” bioRxiv. https://doi.org/10.1101/292151.
+Bernhardsson, Carolina, Amaryllis Vidalis, Xi Wang, Douglas G. Scofield, Bastian Shiffthaler, John Baison, Nathaniel R. Street, M. Rosario Garcia Gil, and Pär K. Ingvarsson. 2018. “An Ultra-Dense Haploid Genetic Map for Evaluating the Highly Fragmented Genome Assembly of Norway Spruce (*Picea abies*). *bioRxiv*. [https://doi.org/10.1101/292151](https://doi.org/10.1101/292151).
 
 
 @UNPUBLISHED{Bernhardsson2018-jz,
