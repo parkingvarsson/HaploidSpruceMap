@@ -4,6 +4,7 @@ Bernhardsson, Carolina, Amaryllis Vidalis, Xi Wang, Douglas G. Scofield, Bastian
 
 
 @UNPUBLISHED{Bernhardsson2018-jz,
+
  title    = "An ultra-dense haploid genetic map for evaluating the highly
               fragmented genome assembly of Norway spruce (Picea abies)",
               
