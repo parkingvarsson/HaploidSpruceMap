@@ -1,1 +1,17 @@
-Scripts for creating genetic maps
+Scripts for creating genetic maps:
+
+Finish_all_LGs_SLURM.sh – Script to order markers along LGs with RECORD (from terminal) 
+
+DroppedMap.R – Script to estimate LG marker distance on dropped maps using BatchMap
+
+droppedMaps.sh –  Script to run DroppedMap.R from terminal
+
+cluster_comparison_dropped_maps.R – Script to compare marker order between clusters (dropped maps), create consensus maps and find which LGs split scaffolds are located on 
+
+Compare_cluster_maps.R – Script to find LG correspondence between clusters, find split scaffolds and drop markers from LGs.
+
+Comp_plot.R – Function for plot map comparison between consensus and framework maps
+
+Consensus_framework-Maps_correlation.R – Script to run Comp_plot.R function and for calculation correlations between framework maps
+
+
