@@ -2,18 +2,15 @@ To reference this project in publications, please cite the following:
 
 Bernhardsson, Carolina, Amaryllis Vidalis, Xi Wang, Douglas G. Scofield, Bastian Shiffthaler, John Baison, Nathaniel R. Street, M. Rosario Garcia Gil, and Pär K. Ingvarsson. 2018. “An Ultra-Dense Haploid Genetic Map for Evaluating the Highly Fragmented Genome Assembly of Norway Spruce (*Picea abies*). *bioRxiv*. [https://doi.org/10.1101/292151](https://doi.org/10.1101/292151).
 
-
+```
 @UNPUBLISHED{Bernhardsson2018-jz,
-
- title    = "An ultra-dense haploid genetic map for evaluating the highly
+   title    = "An ultra-dense haploid genetic map for evaluating the highly
               fragmented genome assembly of Norway spruce (Picea abies)",
-              
- author   = "Bernhardsson, Carolina and Vidalis, Amaryllis and Wang, Xi and
+   author   = "Bernhardsson, Carolina and Vidalis, Amaryllis and Wang, Xi and
               Scofield, Douglas G and Shiffthaler, Bastian and Baison, John and
               Street, Nathaniel R and Rosario Garcia Gil, M and Ingvarsson,
               P{\"a}r K",
-
- abstract = "Norway spruce (Picea abies (L.) Karst.) is a conifer species with
+   abstract = "Norway spruce (Picea abies (L.) Karst.) is a conifer species with
               large economic and ecological importance. As with most conifers,
               the P. abies genome is very large (~20 Gbp) and contains high
               levels of repetitive DNA. The current genome assembly (v1.0)
@@ -43,15 +40,9 @@ Bernhardsson, Carolina, Amaryllis Vidalis, Xi Wang, Douglas G. Scofield, Bastian
               regions anchored to chromosomes. The results show that our map is
               dense enough to allow detailed evolutionary analysis across the
               P. abies genome.",
- 
   journal  = "bioRxiv",
-
   pages    = "292151",
-  
   month    =  apr,
-  
   year     =  2018,
-  
   language = "en"
-
 }
