@@ -1,5 +1,7 @@
 Scripts for analyses of the genetic maps
 
+Consensus_framework-Maps_correlation.R - Correlations between framework and the consesus map(s)
+
 MultiScaf_vs_Split_Scaf.R – Script to compare multi marker scaffolds length with split scaffolds length
 
 Sliding_recombination.R – Script to create sliding window analysis of marker density, scaffold density, scaffold length and gene density along the consensus genetic map
