@@ -1,0 +1,12 @@
+#sbatch Find_order.sh C1_LG_1
+sbatch Find_order.sh C1_LG_2
+sbatch Find_order.sh C1_LG_3
+sbatch Find_order.sh C1_LG_4
+sbatch Find_order.sh C1_LG_5
+sbatch Find_order.sh C1_LG_6
+sbatch Find_order.sh C1_LG_7
+sbatch Find_order.sh C1_LG_8
+sbatch Find_order.sh C1_LG_9
+sbatch Find_order.sh C1_LG_10
+sbatch Find_order.sh C1_LG_11
+sbatch Find_order.sh C1_LG_12

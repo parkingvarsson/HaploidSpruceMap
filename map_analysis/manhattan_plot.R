@@ -1,5 +1,5 @@
 manhattan <- function (x, chr = "CHR", bp = "POS", p = "P", snp = "SNP", col = c("gray10",
-    "gray60"), chrlabs = NULL, highlight = NULL, logp = TRUE,point=TRUE,ymin=0,ymax=1,
+    "gray60"), mean=NULL,chrlabs = NULL, highlight = NULL, logp = TRUE,point=TRUE,ymin=0,ymax=1,
     ...)
 {
     CHR = POS = P = index = NULL
@@ -17,17 +17,32 @@ manhattan <- function (x, chr = "CHR", bp = "POS", p = "P", snp = "SNP", col = c
         stop(paste(bp, "column should be numeric."))
     if (!is.numeric(x[[p]]))
         stop(paste(p, "column should be numeric."))
-    d = data.frame(CHR = x[[chr]], BP = x[[bp]], P = x[[p]])
-    if (!is.null(x[[snp]]))
-        d = transform(d, SNP = x[[snp]])
-    d <- subset(d, (is.numeric(CHR) & is.numeric(BP) & is.numeric(P)))
-    d <- d[order(d$CHR, d$BP), ]
-    if (logp) {
+    if (is.null(x[[mean]])){
+      d = data.frame(CHR = x[[chr]], BP = x[[bp]], P = x[[p]])
+      if (!is.null(x[[snp]]))
+          d = transform(d, SNP = x[[snp]])
+      d <- subset(d, (is.numeric(CHR) & is.numeric(BP) & is.numeric(P)))
+      d <- d[order(d$CHR, d$BP), ]
+      if (logp) {
         d$logp <- -log10(d$P)
-    }
-    else {
+      }
+      else {
         d$logp <- d$P
-    }
+      }
+    } 
+    else {
+      d = data.frame(CHR = x[[chr]], BP = x[[bp]], P = x[[p]],MEAN=x[[mean]])
+      if (!is.null(x[[snp]]))
+        d = transform(d, SNP = x[[snp]])
+      d <- subset(d, (is.numeric(CHR) & is.numeric(BP) & is.numeric(P) & is.numeric((MEAN))))
+      d <- d[order(d$CHR, d$BP), ]
+      if (logp) {
+        d$logp <- -log10(d$P)
+      }
+      else {
+        d$logp <- d$P
+      }
+    } 
 
     ##background colours
     bg_col = c("grey90","grey95")
@@ -107,6 +122,7 @@ manhattan <- function (x, chr = "CHR", bp = "POS", p = "P", snp = "SNP", col = c
 	    }
 	    if(!point){
 	       with(d[d$index == unique(d$index)[i], ], lines(pos,logp, col = col[icol], pch = 20, ...))
+	      with(d[d$index == unique(d$index)[i], ], lines(pos,MEAN, col = col[icol], pch = 20, ...))
                icol = icol + 1
 	    }
         }
