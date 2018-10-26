@@ -12,7 +12,7 @@ Find_order.R - ordering maps
 
 Find_order.sh - shell script for running Find_order.R
 
-first_part_of_BatchMap.R - Run initial steps of map creation
+first_part_of_BatchMap.R - Script to group markers into LGs
 
 plot_recombinatio_maps.R - Plot results
 
