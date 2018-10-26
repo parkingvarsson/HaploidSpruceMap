@@ -1,0 +1,19 @@
+ Scripts for creating genetic maps:
+
+Analyse_maps.R - main script for analysing the maps
+
+comp_plot.R – Function for plot map comparison between consensus and framework maps
+
+Compare_cluster_maps.R – Script to find LG correspondence between clusters, find split scaffolds and drop markers from LGs.
+
+estimate_map_size.R - Resampling method to estimate map size and inflation
+
+Find_order.R - ordering maps
+
+Find_order.sh - shell script for running Find_order.R
+
+first_part_of_BatchMap.R - Run initial steps of map creation
+
+plot_recombinatio_maps.R - Plot results
+
+segregation_test.R - test for segregation distortion 
