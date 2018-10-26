@@ -1,6 +1,6 @@
 Scripts for preparation of input files: 
 
-pca_plot_1family.R – Script for PCA analysis of sample relationships
+pca_plot.R – Script for PCA analysis of sample relationships
 
 informative_markers_3clusters.R – Script for extracting all markers with right segregation pattern per cluster
 
